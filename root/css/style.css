@@ -1,0 +1,250 @@
+/* Table of Contents
+--------------------------------------------------- 
+-General Content
+-Typography
+-Header and Navigation
+-Images and Media
+-Footer
+-Media Queries
+--------------------------------------------------- */
+
+/* General Content
+--------------------------------------------------- */
+.main{padding-top: ;} /*was 3 */
+.row{padding: 2% 0;}
+.green{
+    background-color: #9AACB8;
+    margin-left: ;
+    margin-bottom: 6em
+}
+
+.skills {
+    text-align:right;
+    padding-right:20px;
+    padding-left:20px;
+    line-height:40px;
+    color:#000;
+    margin-bottom: 1em;
+}
+
+.ArcGIS {
+    width:90%; color: #fff; background-color:#3C455C;}
+.HTML-CSS {
+    width:80%; color: #fff;background-color:#3C455C;}
+.PYTHON {
+    width:65%; color: #fff;background-color:#3C455C;}
+.PHOTOSHOP-ILLUSTRATOR {
+    width:70%; color: #fff;background-color:#3C455C; margin-bottom: 5em;}
+
+.skills-container{
+    width:100%;
+    background-color:#ddd;
+    box-sizing: border-box;
+}
+
+.skillstext{
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: -2px;
+    color: #B37C57;
+}
+
+.portfolio-header{margin-top: 5em;
+    text-align: left;
+}
+
+.contact-header{
+    text-align: center;
+}
+
+.button-primary{
+    margin-left: ;
+    position: ;
+}
+/* Typography
+--------------------------------------------------- */
+body{
+    font-family:'Abel', sans-serif;
+    font-size: 1.5em;
+    color: #000;
+}
+
+h2{
+    font-family: ; <!--change this style..was 'Satisfy'-->
+    font-size: 3em;
+    margin: 0.67em;
+}
+
+h2.bio{
+    color: #fff;
+    text-decoration: underline;
+}
+p.bio{
+    color: #fff;
+}
+
+.project_title{
+    color: #60412B;
+}
+
+
+/* Header and Navigation
+--------------------------------------------------- */
+header.main_nav{
+    padding: 0;
+    display: block;
+    margin-bottom: -1%;
+    
+}
+
+.logo {
+    margin: 5% auto;
+    text-align:center;
+    padding-top: 1em;
+}
+.logo a{
+    font-size: 4em;
+    color:#2F4F4F;
+    text-decoration: none;
+    border: 3px solid #fff;
+    text-transform: uppercase;
+    padding: 2px 10px 0 10px;
+    margin: 0;
+    background-color: #fff;
+    font-family:;
+    <!--get cool font-->
+}
+.logo a:hover{
+    background-color: #fff;
+    color: #9AACBB;
+}
+
+.sublogo {
+    font-size: 2em;
+    color: #fff;
+    padding-top: 15px;
+}
+
+/*Strip the ul of padding and list styling*/
+.menubar{
+    position:;
+    top:0;
+    background-color:;
+    margin: em;
+    z-index: 1;
+    padding:0;
+    line-height: ;
+    height: 3 em;
+    
+}
+.mainmenu {
+    list-style-type:none;
+    position: relative;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 5%;
+    
+}
+/*Create a horizontal list with spacing*/
+#menuitems {
+    display: inline-block;
+    margin: none;
+    margin-bottom: 3px;
+
+}
+
+#menuitems a {
+    display:block;
+    min-width:200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    background: #B37C57;
+    text-decoration: none;
+}
+/*Hover state for top level links*/
+#menuitems:hover a {
+    background: #9AACBB;
+}
+
+
+/* Images and Media
+--------------------------------------------------- */
+img{max-width: 100%; margin-top: 7px}
+img.avatar{
+    border-radius: 400px;
+    border: 5px solid #fff;
+}
+
+img:hover{opacity:0.8;
+    
+}
+
+iframe {
+    width: 100% !important;
+    opacity:.8;
+    margin-top: ;
+}
+/* Footer
+--------------------------------------------------- */
+ul.social{
+    display:block;
+    margin: 5% 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+ul.social li{
+    font-size: 3em;
+    display: inline;
+    padding: 0 2%;
+}
+
+ul.social li a{
+    color: #666;
+}
+
+ul.social li.twitter a:hover{color: rgb(0,172,237);}
+ul.social li.linkedin a:hover{color: rgb(0,123,182);}
+ul.social li.github a:hover{color: rgb(0,0,0);}
+
+p.copyright{
+    text-align: center;
+    color: #666;
+    font-size: 1em;
+}
+
+/* Media Queries
+--------------------------------------------------- */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=submit] {
+    background-color: #9AACB8;
+    color: white;
+    padding: 2px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+green color */
+input[type=submit]:hover {
+    background-color: #9AACB8;
+}
+
+.container-contact {
+    border-radius: 5px;
+    background-color: #DDE2E3;
+    padding: 20px;
+}
