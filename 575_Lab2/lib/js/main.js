@@ -60,8 +60,8 @@
 
         //use queue to parallelize asynchronous data loading
         d3.queue()
-            .defer(d3.csv, "/data/opioidDataCopy.csv") //load attributes from csv
-            .defer(d3.json, "/data/states3.topoJSON")
+            .defer(d3.csv, "marreguin1.github.io/575_Lab2/lib/data/opioidDataCopy.csv") //load attributes from csv
+            .defer(d3.json, "marreguin1.github.io/575_Lab2/lib/data/states3.topoJSON")
             .await(callback);
 
 
