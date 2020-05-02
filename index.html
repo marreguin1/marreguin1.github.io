@@ -76,19 +76,22 @@
         <!--might just be class=main-->
         <div class="row">
             <div class="eight columns portfolio">
-                <a class="image-link" href="images/Basemap.jpg"><img src="images/Basemap.jpg" /></a>
+                <a class="image-link" href="images/OpioidMap.png"><img src="images/OpioidMap.png" /></a>
             </div>
-            <div class="four columns">
-                <h4 class="project_title">Pyrenees Basemap</h4>
+            
+            <!--<div class="four columns">
+                <h4 class="project_title">Pyrenees Basemap</h4>-->
                 <!--Project Bio and temporary filler text-->
-                <p class="project_desc">In this project, I downloaded 15 arc minute global DEMs from <a href="http://www.viewfinderpanoramas.org/Coverage%20map%20viewfinderpanoramas_org15.htm" target="_blank">Viewfinder Panoramas</a>. After mosaicking four tiles, I resampled the final DEM. I then downloaded land cover from the UN Food and Agriculture Organization. ArcMap and Photoshop were used to classify the land data. Illustrator was used to edit the vector data downloaded from <a href="http://www.naturalearthdata.com" target="_blank">Natural Earth</a>. </p>
+                <!--<p class="project_desc">In this project, I downloaded 15 arc minute global DEMs from <a href="http://www.viewfinderpanoramas.org/Coverage%20map%20viewfinderpanoramas_org15.htm" target="_blank">Viewfinder Panoramas</a>. After mosaicking four tiles, I resampled the final DEM. I then downloaded land cover from the UN Food and Agriculture Organization. ArcMap and Photoshop were used to classify the land data. Illustrator was used to edit the vector data downloaded from <a href="http://www.naturalearthdata.com" target="_blank">Natural Earth</a>. </p>
+            </div>-->
+            
+            <div class="four columns">
+                <h4 class="project_title">Opioid Story Map Application</h4>
+                <!--Project Bio and temporary filler text-->
+                <p class="project_desc">In this project, I used mapbox and the leaflet Javascript library to create a web mapping application centered around the United States opioid epidemic. Open Street map and Mapbox are both used as basemaps. I made the application interactive in so far that the states will give users the 2016 opioid deaths per 100,000 people for each state. The states are symbolized to represent higher vs lower death rates. As the user scrolls down the information panel, the map will reposition the extent. The raw data was obtained from the CDC. View the application <a href="https://marreguin1.github.io/OpioidMap/">here</a>.</p>
             </div>
-            <!--<div class="four columns portfolio">
-            <img src="images/desert_cycle.jpg" />
-        </div>
-        <div class="four columns portfolio">
-            <img src="images/italy_bikes.jpg" />
-        </div> -->
+            
+            
         </div>
 
         <div class="row">
@@ -100,21 +103,11 @@
                 <!--Project Bio and temporary filler text-->
                 <p class="project_desc" style="text-align: left; padding-right: 2em;">This project shows soil types (Basco, Elkmound, Council, and Orion) found within Pleasant Valley, Wisconsin based on environmental covariates. To predict soil type, I used slope gradient, elevation, and profile curvature as covariates. SoLIM and ArcMap were used to run the analysis.</p>
             </div>
-            <!--<div class="four columns portfolio">
-            <img src="images/overlook_mtn.jpg" />
-        </div>
-        <div class="four columns portfolio">
-            <img src="images/paris_couple.jpg" />
-        </div> -->
+            
         </div>
 
         <div class="row" style="margin-bottom: 10%;">
-            <!--<div class="four columns portfolio">
-            <img src="images/single_rider.jpg" />
-        </div>
-        <div class="four columns portfolio">
-            <img src="images/sunset_beach.jpg" />
-        </div> -->
+            
             <div class="eight columns portfolio">
                 <a class="image-link" href="images/infograph.png"><img src="images/infographic%20thumbnail.jpg" /></a>
             </div>
@@ -127,12 +120,18 @@
         </div>
         <div class="row" style="margin-bottom: 10%;">
             <div class="eight columns portfolio" style="float:right;">
-                <a target="_blank" class="image-link" href="http://htmlpreview.github.io/?https://github.com/marreguin1/tc_supervisorial_webmap/blob/master/index.html"><img src="supWebMap.jpg" /></a>
+                <a class="image-link" href="images/IcelandEruptions.png"><img src="images/IcelandEruptions.png" /></a>
             </div>
-            <div class="four columns">
+            <!--<div class="four columns">
                 <h4 class="project_title">Supervisorial Web Map</h4>
                 <!--Project Bio and temporary filler text-->
-                <p class="project_desc" style="text-align: left; padding-right: 2em;">This project shows supervisor districts within Tuolumne County, CA. The map is interactive by allowing users to hover over different areas to determine what district they are in. First, I created a basemap in Mapbox and uploaded the district geojson files. I then used MapboxGL javascript library to add interactivity to the map.</p>
+                <!--<p class="project_desc" style="text-align: left; padding-right: 2em;">This project shows supervisor districts within Tuolumne County, CA. The map is interactive by allowing users to hover over different areas to determine what district they are in. First, I created a basemap in Mapbox and uploaded the district geojson files. I then used MapboxGL javascript library to add interactivity to the map.</p>
+            </div>-->
+            
+            <div class="four columns">
+                <h4 class="project_title">Iceland Volcano Eruptions</h4>
+                <!--Project Bio and temporary filler text-->
+                <p class="project_desc" style="text-align: left; padding-right: 2em;">This project shows volcano eruptions in Iceland since the 1700s. The application is a simple demonstration of mapping temporal data. The eruptions are sorted by date. Graduated points were created based on the Volcanic Eruption Index (VEI). VEI measures the severity of each eruption. Data on eruptions in the 1700s can be sparse and often relies on the written accounts of people who were alive during the volcanic event. Users can use the time slider to cycle through eruption events. The points also have interactive popups that give more information such as number of deaths. Mapbox and leaflet were used to create the <a href="https://marreguin1.github.io/IcelandicVolcanoEruptions/">application</a>.</p>
             </div>
         </div>
         <!----------- end of new project 2/10 ------------->
@@ -148,7 +147,7 @@
             <div class="eight columns">
                 <h2 class="bio">About Michael</h2>
                 <!--Bio and temporary filler text-->
-                <p class="bio">Welcome! I am a geospatial professional based in Northern California. I enjoy telling stories through cartography, programming, and design. In fact, I recently graduated with my M.S. in Web Mapping and Programming for GIS from University of Wisconsin, Madison. Outside of work, you can find me playing my bass guitar, hiking, or bouldering. If you’d like to know more about my experience, feel free to download my resume. Thanks! <a name="resumetarget"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button button-primary" href="documents/Arreguin_Resume_2020.pdf" download="MichaelArreguin'sResume">resume</a></p>
+                <p class="bio">Hello! I am a geospatial professional based in Northern California. I enjoy telling stories through cartography, programming, and design. I recently graduated with my M.S. in Web Mapping and Programming for GIS from University of Wisconsin, Madison. I have extensive experience working with ESRI products, automating GIS software, data analysis, web mapping, and cartographic design. Outside of work, you can find me playing my bass guitar, hiking, or bouldering. If you’d like to know more about my experience, feel free to download my resume. Thanks! <a name="resumetarget"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button button-primary" href="documents/Arreguin_Resume_2020.pdf" download="MichaelArreguin'sResume">resume</a></p>
             </div>
         </div>
     </div>
